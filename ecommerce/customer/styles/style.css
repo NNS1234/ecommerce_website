@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{background:skyblue;
+}
+
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background:silver;
+	
+}
+
+
+.header_wrapper{
+	width:1000px;
+	height:100px;
+	margin:auto;
+	
+}
+#logo1{float:left;}
+#logo{float:middle;}
+#banner{float:right;}
+
+.menubar{
+	width:1000px;
+	height:30px;
+	color:white;
+	background:gray;
+    margin:auto;	
+
+	
+}
+#menu{
+	padding:0;
+	margin:0;
+	line-height:32px;
+	
+}
+
+#menu li{
+	list-style:none;
+	display:inline;
+	
+	
+	
+}
+
+#menu a{
+	text-decoration:none;
+	padding:15px;
+	margin:5px;
+	color:white;
+	font-size:15px;
+	font-family:COMIC SANS MS;
+	
+	
+}
+
+#menu a:hover{color:orange;font-weight:bolder;}
+#form{float:right;padding-right:8px;}
+
+
+.content_wrapper{
+	width:1000px;
+	margin:auto;
+	background:white;	
+}
+
+#content_area{
+	width:800px;
+	float:right;
+	background:white;
+	
+}
+
+#sidebar{
+    width:200px;
+	float:left;
+	background:silver; 
+	margin:auto;
+	
+}
+
+#sidebar_title{
+	background-color:silver;
+	color:Black;
+	font-size:22px;
+	font-family:COMIC SANS MS;
+	padding:10px;
+	text-align:center;
+	
+}
+
+#cats{
+	
+	text-align:left;
+}
+#cats li{list-style:none;}
+#cats a{color:orange;padding-left:5px;margin:auto;text-align:left;font-size:17px;font-family:COMIC SANS MS;}
+#cats a:hover{color:white;font-weight:bolder;}
+
+
+#products_box{
+	width:780px;
+	text-align:center;
+	margin-left:30px;
+	margin-bottom:10px;
+	
+	
+	
+}
+#single_product{
+	
+	float:left;
+	margin-left:30px;
+	padding:10px
+	
+	
+}
+#single_product img{border:2px solid black;}
+
+#shopping_cart{width:800px;height:40px;background:silver;margin:auto;color:white;}
+#shopping_cart a:hover{font-weight:bold;}
+#footer{
+	width:1000px;
+	height:100px;
+	background:gray;
+	clear:both;
+	float:left;
+	font-family:COMIC SANS MS;
+
+	
+	
+}
+	
+	
+
